@@ -4,7 +4,9 @@
         "altText": "Logo dark",
         "styles": {
             "self": {
-                "margin": ["mr-3"]
+                "margin": [
+                    "mr-3"
+                ]
             }
         },
         "type": "ImageBlock"
@@ -73,7 +75,7 @@
         {
             "label": "Sign up",
             "altText": "Sign up",
-            "url": "https://app.netlify.com/signup",
+            "url": "",
             "icon": "arrowRight",
             "iconPosition": "right",
             "style": "secondary",
