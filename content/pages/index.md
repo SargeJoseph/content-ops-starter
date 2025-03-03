@@ -745,7 +745,7 @@ sections:
     type: GenericSection
 seo:
   metaTitle: toilemaitre
-  metaDescription: This demo site is built with Netlify Create.
+  metaDescription: toilemaitre
   socialImage: /images/main-hero.jpg
   type: Seo
 type: PageLayout
