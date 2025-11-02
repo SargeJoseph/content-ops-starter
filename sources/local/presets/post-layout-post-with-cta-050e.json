@@ -7,7 +7,7 @@
             "data": {
                 "title": "This is a blog post with a CTA",
                 "slug": "this-is-a-blog-post-with-related-posts",
-                "date": "2022-10-10",
+                "date": "2025-10-10",
                 "author": {
                     "$$ref": "content/data/person1.json",
                     "$$type": "Person"
