@@ -314,10 +314,9 @@ sections:
       text: Social Media Management
       color: text-dark
       type: TitleBlock
-    subtitle: Increase your reach
-    text: >
-      A service that helps businesses to manage their social media accounts and
-      posts.
+      subtitle: Automated Security Alerts
+      text: >
+        Instantly share threat intelligence updates and security alerts with your team. TraceConsole integrates with collaboration platforms to keep everyone informed and ready to respond.
     actions:
       - label: Get started
         url: /
@@ -349,10 +348,9 @@ sections:
       text: Business Consulting
       color: text-dark
       type: TitleBlock
-    subtitle: Be in good company
-    text: >
-      A service that provides advice and guidance to startups and small
-      businesses.
+      subtitle: Security Strategy & Guidance
+      text: >
+        Expert advice for building resilient Windows security operations. Our consultants help you design, deploy, and optimize TraceConsole for maximum protection and compliance.
     actions:
       - label: Get started
         url: /
