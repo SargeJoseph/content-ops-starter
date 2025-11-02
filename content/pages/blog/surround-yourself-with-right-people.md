@@ -3,7 +3,7 @@ title: Surround Yourself With the Right People
 slug: surround-yourself-with-right-people
 date: '2024-03-26'
 excerpt: >-
-  Starting a business is no small feat. It’s a journey filled with challenges, risks, and countless decisions that can make or break your startup. One of the most critical decisions you'll make isn’t about your product or market—it's about the people you surround yourself with.
+  Building TraceConsole required a team of security-minded developers, analysts, and contributors who share a vision for better threat detection and automation.
 featuredImage:
   altText: Thumbnail
   type: ImageBlock
@@ -25,50 +25,36 @@ styles:
 isFeatured: false
 ---
 
-Starting a business is no small feat. It’s a journey filled with challenges, risks, and countless decisions that can make or break your startup. One of the most critical decisions you'll make isn’t about your product or market—it's about the people you surround yourself with.
+Building a security tool like TraceConsole is a team effort. The right people bring technical skills, security experience, and a passion for automation.
 
-## Why the Right People Matter
+## Why the Right Security Team Matters
 
-In the early stages of a startup, every team member plays a crucial role. The right people bring not only their skills but also their energy, attitude, and resilience. They’re the ones who will stick with you through thick and thin, help navigate obstacles, and push the company toward success.
+Security projects succeed when developers, analysts, and testers collaborate closely. Diverse backgrounds help us solve complex problems, from parsing Windows event logs to integrating threat intelligence APIs.
 
-### 1. Shared Vision
+### 1. Shared Mission
 
-Having a team that aligns with your vision is essential. People who understand and believe in your mission will work tirelessly to see it come to life. They’ll be your champions, your sounding boards, and your biggest supporters.
+Everyone on the team believes in making threat detection and response accessible to all organizations.
 
-### 2. Diverse Skills
+### 2. Complementary Skills
 
-Surround yourself with individuals whose skills complement yours. A diverse team brings different perspectives, ideas, and solutions to the table. This diversity is invaluable when it comes to innovation and problem-solving.
+We combine Python development, PowerShell scripting, and forensic analysis to build robust features.
 
-### 3. Positive Energy
+### 3. Positive Attitude
 
-Startups are demanding, and the road to success can be bumpy. Positive, resilient individuals help maintain morale and keep the team motivated, even during tough times. Their optimism can be infectious, boosting the entire team's spirit.
+Security is challenging, but our team stays motivated by celebrating small wins and learning from incidents.
 
-### 4. Constructive Criticism
+### 4. Honest Feedback
 
-You need people who can provide honest, constructive feedback. Yes-men won’t help you grow; critical thinkers will. Surround yourself with people who challenge your ideas and push you to refine and improve them.
+Constructive code reviews and open discussions help us improve TraceConsole with every release.
 
-### 5. Cultural Fit
+### 5. Community Focus
 
-Beyond skills and experience, cultural fit is crucial. A cohesive team culture fosters better communication, collaboration, and a more enjoyable work environment. This leads to higher productivity and lower turnover.
+We welcome contributions from the open source community, knowing that collaboration leads to better security tools.
 
-## How to Find the Right People
+## How We Build Our Team
 
-### 1. Network Intentionally
+- We recruit contributors who care about security and automation.
+- We value clear communication and documentation.
+- We encourage learning and sharing knowledge.
 
-Attend industry events, join startup communities, and engage with like-minded individuals. Networking intentionally can help you find people who share your values and aspirations.
-
-### 2. Leverage Referrals
-
-Ask your existing network for referrals. People you trust are likely to introduce you to other reliable and skilled professionals.
-
-### 3. Assess Soft Skills
-
-During the hiring process, don’t just focus on technical abilities. Assess candidates' soft skills, such as communication, adaptability, and teamwork, which are crucial in a startup environment.
-
-### 4. Trial Periods
-
-Consider trial periods for new hires. This allows both parties to assess fit and compatibility before making a long-term commitment.
-
-## Conclusion
-
-In the journey of building a startup, the people you surround yourself with can significantly impact your success. By choosing individuals who share your vision, bring diverse skills, and contribute positively to the company culture, you’ll create a strong foundation for growth. Remember, the right team can turn your startup dream into a reality.
+The right team makes TraceConsole possible—and helps us respond to new threats every day.
