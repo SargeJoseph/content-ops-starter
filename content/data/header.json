@@ -37,8 +37,7 @@
             "iconPosition": "right",
             "style": "secondary",
             "type": "Link"
-        },
-
+        }
     ],
     "secondaryLinks": [
         {
