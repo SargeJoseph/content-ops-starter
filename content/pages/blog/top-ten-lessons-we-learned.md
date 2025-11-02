@@ -27,8 +27,34 @@ type: PostLayout
 author: content/data/person1.json
 ---
 
-Interdum posuere lorem ipsum dolor sit amet consectetur. Odio morbi quis commodo odio aenean sed adipiscing diam donec. Vitae congue mauris rhoncus aenean vel elit scelerisque mauris pellentesque. Porttitor massa id neque aliquam vestibulum morbi blandit cursus. Vitae aliquet nec ullamcorper sit. Gravida arcu ac tortor dignissim convallis aenean. Quisque sagittis purus sit amet volutpat consequat mauris nunc congue. Est ultricies integer quis auctor. Commodo quis imperdiet massa tincidunt nunc pulvinar sapien. Vel risus commodo viverra maecenas accumsan lacus. Donec adipiscing tristique risus nec feugiat in fermentum. Habitasse platea dictumst quisque sagittis purus sit. Quam adipiscing vitae proin sagittis nisl rhoncus mattis rhoncus urna. Id leo in vitae turpis massa sed. Auctor elit sed vulputate mi sit. Gravida arcu ac tortor dignissim convallis aenean et.
+Since launching TraceConsole, we’ve learned ten lessons about building security tools for Windows environments:
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Auctor augue mauris augue neque gravida in fermentum et. Eget mi proin sed libero enim sed faucibus turpis in. Semper auctor neque vitae tempus. Nibh nisl condimentum id venenatis a condimentum vitae sapien. Et malesuada fames ac turpis egestas sed tempus urna. Tristique magna sit amet purus gravida. Lobortis elementum nibh tellus molestie. Natoque penatibus et magnis dis parturient montes nascetur. Lacus sed viverra tellus in hac habitasse platea. Duis ultricies lacus sed turpis tincidunt id aliquet risus. Vitae congue eu consequat ac felis donec et. Nec tincidunt praesent semper feugiat nibh sed pulvinar proin gravida. Lobortis mattis aliquam faucibus purus in massa tempor nec feugiat. In nibh mauris cursus mattis molestie. Proin libero nunc consequat interdum varius sit amet. Molestie at elementum eu facilisis sed odio morbi quis commodo.
+1. **APIs Change—Plan for It**
+   Threat intelligence APIs update often. Build with versioning and error handling from day one.
 
-Vitae congue mauris rhoncus aenean vel elit scelerisque mauris. Ac tincidunt vitae semper quis lectus nulla at volutpat diam. Eget arcu dictum varius duis at consectetur lorem. Nec ullamcorper sit amet risus nullam eget felis. Laoreet non curabitur gravida arcu ac tortor. Cursus metus aliquam eleifend mi in. Faucibus vitae aliquet nec ullamcorper sit amet. Consectetur a erat nam at lectus urna. Porttitor eget dolor morbi non arcu risus quis varius quam. Condimentum mattis pellentesque id nibh tortor id aliquet. Augue neque gravida in fermentum..
+2. **Windows Event Logs Are Messy**
+   Parsing security events is harder than it looks. Invest in robust log translation and error reporting.
+
+3. **Automation Needs Oversight**
+   Automated blocking is great, but always log every action and require admin approval for high-risk changes.
+
+4. **Cache Everything**
+   API rate limits are real. TraceConsole uses a 90-day cache for all threat lookups to avoid hitting limits.
+
+5. **Forensics Matter**
+   Collecting Amcache and Prefetch artifacts helps with deep investigations. Don’t just alert—enable analysis.
+
+6. **User Feedback Drives Features**
+   Batch scanning, interactive CLI, and audit logs all came from user requests.
+
+7. **SQLite Is Powerful—But Tricky**
+   Handle write locks and use retry logic. We learned this the hard way.
+
+8. **Document Your Schema**
+   A clear database schema makes it easier for contributors and users to understand your tool.
+
+9. **Open Source Builds Trust**
+   Publishing code, scripts, and docs helps the community and improves security.
+
+10. **Celebrate Small Wins**
+    Every new feature, bug fix, or user story is progress. Security is a journey, not a destination.
