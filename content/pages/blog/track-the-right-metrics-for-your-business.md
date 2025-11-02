@@ -2,11 +2,9 @@
 type: PostLayout
 title: Track the right analytics for your business
 slug: track-the-right-analytics-for-your-business
-date: '2023-02-20'
+date: '2025-02-20'
 excerpt: >-
-  Sit ratione eligendi et quis distinctio et maiores accusantium aut accusamus
-  facere sit repellat quidem qui alias nostrum et earum enim. Cum quis sint eos
-  dolor quas ad odit ipsum qui quia eius.
+  TraceConsole helps security teams track threat intelligence coverage, event log volume, and firewall changes for better security outcomes.
 featuredImage:
   url: /images/abstract-feature3.svg
   altText: Thumbnail

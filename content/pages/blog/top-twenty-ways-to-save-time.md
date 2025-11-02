@@ -1,7 +1,7 @@
 ---
 title: Top 20 Ways to Save Time at Work This Year
 slug: top-twenty-ways-to-save-time
-date: '2023-03-25'
+date: '2025-03-25'
 excerpt: >-
   TraceConsole helps security teams save time by automating threat intelligence lookups, event log analysis, and firewall management.
 featuredImage:

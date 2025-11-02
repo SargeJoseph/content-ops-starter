@@ -1,11 +1,9 @@
 ---
 title: 5 Tips for Starting a Startup
 slug: five-tips-for-starting-a-startup
-date: '2023-03-18'
+date: '2025-03-18'
 excerpt: >-
-  Sit ratione eligendi et quis distinctio et maiores accusantium aut accusamus
-  facere sit repellat quidem qui alias nostrum et earum enim. Cum quis sint eos
-  dolor quas ad odit ipsum qui quia eius.
+  Discover five lessons from building TraceConsole, a security automation toolkit for Windows event log analysis and threat intelligence.
 featuredImage:
   url: /images/abstract-feature1.svg
   altText: Thumbnail

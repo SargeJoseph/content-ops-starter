@@ -2,7 +2,7 @@
 type: PostLayout
 title: What is a Security Automation System
 slug: what-is-a-design-system
-date: '2023-02-14'
+date: '2025-02-14'
 excerpt: >-
   Security automation systems like TraceConsole unify threat detection, event log analysis, and response workflows for Windows environments.
 featuredImage:
