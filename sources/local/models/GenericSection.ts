@@ -29,8 +29,7 @@ export const GenericSection: Model = {
             name: 'text',
             label: 'Text',
             required: false,
-            default:
-                'Analyze Windows event logs in real-time. Correlate network activity with threat intelligence from URLhaus, AbuseIPDB, and VirusTotal. Automatically block malicious IPs through Windows Firewall rules. Extract forensic artifacts from Amcache and Prefetch logs for incident investigation.'
+            default: 'Analyze Windows event logs in real-time. Correlate network activity with threat intelligence from URLhaus, AbuseIPDB, and VirusTotal. Automatically block malicious IPs through Windows Firewall rules. Extract forensic artifacts from Amcache and Prefetch logs for incident investigation.',
             hidden: false,
             localized: false
         },
