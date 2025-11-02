@@ -3,22 +3,18 @@ title: Careers
 slug: careers
 sections:
   - title:
-      text: A team that works closely together
+      text: Building Better Security Tools
       color: text-dark
       styles:
         self:
           textAlign: center
       type: TitleBlock
-    subtitle: Section subtitle
+    subtitle: Open source contributions welcome
     text: >
-      There are many variations of passages of Lorem Ipsum available, but the
-      majority have suffered alteration in some form, by injected humour, or
-      randomised words which don't look even slightly believable. If you are
-      going to use a passage of Lorem Ipsum, you need to be sure there isn't
-      anything embarrassing hidden in the middle of text.
+      Toilemaitre is committed to advancing cybersecurity through open source innovation. TraceConsole is built by security professionals who understand the challenges of threat detection and incident response. We welcome contributors from around the world who share our vision of accessible, powerful security tools.
     actions:
-      - label: See open positions
-        url: /
+      - label: View Opportunities
+        url: https://github.com/SargeJoseph/TraceConsole/issues
         icon: arrowRight
         iconPosition: right
         style: primary
@@ -41,54 +37,103 @@ sections:
     type: GenericSection
     backgroundImage:
       type: BackgroundImage
-      altText: altText of the image
+      altText: Security innovation background
       backgroundSize: cover
       backgroundPosition: center
       backgroundRepeat: no-repeat
       opacity: 100
       url: /images/abstract-background.svg
   - title:
-      text: Meet the team
+      text: Our Values
       color: text-dark
       styles:
         self:
           textAlign: center
       type: TitleBlock
-    people:
-      - content/data/person1.json
-      - content/data/person2.json
-      - content/data/person3.json
-      - content/data/person4.json
-      - content/data/person5.json
-      - content/data/person6.json
-    variant: three-col-grid
-    colors: bg-light-fg-dark
+    subtitle: What drives us
+    items:
+      - title: Security First
+        tagline: Core principle
+        subtitle: Robust practices in everything
+        text: >
+          We prioritize secure coding practices and security-first architecture in all our tools.
+        colors: bg-light-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-8
+              - pl-8
+              - pb-8
+              - pr-8
+            textAlign: left
+            borderRadius: x-large
+            flexDirection: row
+            justifyContent: center
+        type: FeaturedItem
+      - title: Open Collaboration
+        tagline: Community-driven
+        subtitle: Diverse perspectives matter
+        text: >
+          Great security tools emerge from diverse perspectives and shared knowledge from the community.
+        colors: bg-light-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-8
+              - pl-8
+              - pb-8
+              - pr-8
+            textAlign: left
+            borderRadius: x-large
+            flexDirection: row
+            justifyContent: center
+        type: FeaturedItem
+      - title: Practical Solutions
+        tagline: Real-world focus
+        subtitle: Solving actual problems
+        text: >
+          We focus on tools that solve real problems for security professionals in the field.
+        colors: bg-light-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-8
+              - pl-8
+              - pb-8
+              - pr-8
+            textAlign: left
+            borderRadius: x-large
+            flexDirection: row
+            justifyContent: center
+        type: FeaturedItem
+    actions: []
+    variant: toggle-list
+    colors: bg-neutral-fg-dark
     styles:
       self:
         padding:
+          - pb-40
           - pt-16
-          - pl-16
-          - pb-16
-          - pr-16
+          - pl-3
+          - pr-3
         justifyContent: center
       subtitle:
         textAlign: center
-    type: FeaturedPeopleSection
+    type: FeaturedItemsSection
   - title:
-      text: Open positions
+      text: Ways to Contribute
       color: text-dark
       styles:
         self:
           textAlign: center
       type: TitleBlock
-    subtitle: Subtitle goes here
+    subtitle: Get involved
     items:
-      - title: Account Executive
-        subtitle: Sales
-        text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+      - title: Code Contributions
+        tagline: Features & fixes
+        subtitle: Submit pull requests
+        text: >
+          Submit pull requests for new features, bug fixes, or improvements to TraceConsole core functionality.
         colors: bg-neutral-fg-dark
         styles:
           self:
@@ -102,12 +147,11 @@ sections:
             flexDirection: row
             justifyContent: center
         type: FeaturedItem
-      - title: Open Source Engineer
-        subtitle: Marketing
-        text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+      - title: Documentation
+        tagline: Knowledge sharing
+        subtitle: Guides and tutorials
+        text: >
+          Help improve our guides, tutorials, and API documentation to make TraceConsole more accessible.
         colors: bg-neutral-fg-dark
         styles:
           self:
@@ -121,12 +165,11 @@ sections:
             flexDirection: row
             justifyContent: center
         type: FeaturedItem
-      - title: Senior Software Engineer
-        subtitle: Engineering
-        text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+      - title: Community Support
+        tagline: Help others
+        subtitle: Q&A and troubleshooting
+        text: >
+          Share your expertise by answering questions and helping other users troubleshoot issues.
         colors: bg-neutral-fg-dark
         styles:
           self:
@@ -135,12 +178,14 @@ sections:
               - pl-8
               - pb-8
               - pr-8
+            textAlign: left
             borderRadius: x-large
             flexDirection: row
+            justifyContent: center
         type: FeaturedItem
     actions:
-      - label: Apply now
-        url: /
+      - label: See Issues
+        url: https://github.com/SargeJoseph/TraceConsole/issues
         icon: arrowRight
         iconPosition: right
         style: primary
@@ -159,8 +204,9 @@ sections:
         textAlign: center
     type: FeaturedItemsSection
 seo:
-  metaTitle: Careers - Demo site
-  metaDescription: This is the careers page built with Netlify Create.
+  metaTitle: Careers - Toilemaitre Open Source Security
+  metaDescription: >-
+    Join our mission to build better security tools. Open source contributions welcome.
   socialImage: /images/main-hero.jpg
   type: Seo
 type: PageLayout

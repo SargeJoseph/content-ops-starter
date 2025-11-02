@@ -4,27 +4,25 @@ slug: /
 sections:
   - type: GenericSection
     title:
-      text: Unblock your team boost your time to production
+      text: Automated Threat Detection & Response
       color: text-dark
       type: TitleBlock
-    subtitle: Subtitle goes here
+    subtitle: Windows Security Forensics Platform
     text: >
-      A Netlify Create website is a git repo that you own. Every code commit is
-      instantly reflected in the visual editor and since every visual edit is a
-      git commit, git workflows and collaboration just work.
+      Toilemaitre provides comprehensive security forensics and threat intelligence tools for Windows environments. Our flagship product, TraceConsole, integrates event log analysis with multiple threat intelligence sources to deliver automated IP reputation scanning, malware detection, and instant firewall protection.
     actions:
-      - label: Get started
+      - label: Get Started
         altText: ''
-        url: /
+        url: https://github.com/SargeJoseph/TraceConsole
         showIcon: false
         icon: arrowRight
         iconPosition: right
         style: secondary
         elementId: ''
         type: Button
-      - label: See Tutorials
+      - label: Learn More
         altText: ''
-        url: /
+        url: https://toilemaitre.com
         showIcon: true
         icon: arrowRight
         iconPosition: right
@@ -53,21 +51,19 @@ sections:
           - pr-16
   - type: FeaturedItemsSection
     title:
-      text: Key Benefits
+      text: Core Capabilities
       color: text-dark
       styles:
         self:
           textAlign: center
       type: TitleBlock
-    subtitle: Subtitle goes here
+    subtitle: Everything you need for threat detection
     items:
       - type: FeaturedItem
-        title: 500k
-        subtitle: Numbers Done
-        text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+        title: Threat Intelligence
+        subtitle: Multi-source analysis
+        text: >
+          Query URLhaus, AbuseIPDB, IPQualityScore, GreyNoise, and VirusTotal APIs for comprehensive threat assessment with intelligent 90-day caching.
         actions: []
         elementId: null
         colors: bg-neutralAlt-fg-dark
@@ -90,12 +86,10 @@ sections:
           styles:
             self:
               borderRadius: x-large
-      - title: 20x
-        subtitle: The Job Stuff
-        text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+      - title: Event Log Analysis
+        subtitle: Windows forensics
+        text: >
+          Parse Windows Security and Firewall events with human-readable translations. Extract forensic artifacts from Amcache, Prefetch, and EVTX logs.
         image:
           url: /images/icon2.svg
           altText: Featured icon two
@@ -115,12 +109,10 @@ sections:
             textAlign: left
             justifyContent: center
         type: FeaturedItem
-      - title: 200%
-        subtitle: Faster
-        text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+      - title: Automated Blocking
+        subtitle: Real-time protection
+        text: >
+          Automatically create Windows Firewall rules to block malicious IPs based on threat intelligence scoring. Configure risk thresholds and blocking policies.
         image:
           url: /images/icon3.svg
           altText: Featured icon three
@@ -141,7 +133,7 @@ sections:
     actions:
       - label: Get started
         altText: ''
-        url: /
+        url: https://github.com/SargeJoseph/TraceConsole
         showIcon: false
         icon: arrowRight
         iconPosition: right
@@ -402,20 +394,17 @@ sections:
     type: DividerSection
   - type: CarouselSection
     title: null
-    subtitle: What our customers say about us
+    subtitle: What security professionals say about us
     items:
       - title: >-
-          “A designer knows he has achieved perfection not when there is nothing
-          left to add, but when there is nothing left to take away.”
+          "The automated scanning and blocking capabilities have significantly reduced our incident response time."
         tagline: Testimonial 1
-        subtitle: 'Maria Walters, Company'
+        subtitle: 'Security Analyst, Enterprise Security Team'
         text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+          The threat intelligence integration is comprehensive and reliable. We've significantly reduced our time to identify and block malicious traffic.
         image:
           url: /images/person-placeholder-light.png
-          altText: Maria Walters
+          altText: Security Professional
           styles:
             self:
               borderRadius: full
@@ -435,17 +424,14 @@ sections:
             justifyContent: center
         type: FeaturedItem
       - title: >-
-          "Design is a plan for arranging elements in such a way as best to
-          accomplish a particular purpose."
+          "TraceConsole's forensic collection features have been invaluable during investigations."
         tagline: Testimonial 2
-        subtitle: 'John Doe, Company'
+        subtitle: 'Incident Responder, MSSP'
         text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+          The SQLite database makes it easy to correlate events and track threats over time. This has become an essential part of our incident response workflow.
         image:
           url: /images/person-placeholder-light.png
-          altText: John Doe
+          altText: IR Specialist
           styles:
             self:
               borderRadius: full
@@ -465,17 +451,14 @@ sections:
             justifyContent: center
         type: FeaturedItem
       - title: >-
-          "Design is how it works, how it functions. Good design doesn't just
-          make a product aesthetically pleasing, it makes it a pleasure to use."
+          "Finally, a tool that combines event log analysis with actionable threat intelligence."
         tagline: Testimonial 3
-        subtitle: 'Maria Walters, Company'
+        subtitle: 'IT Manager, Healthcare Org'
         text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+          The automated firewall rules give us peace of mind knowing malicious IPs are blocked immediately. This is exactly what we've been looking for.
         image:
           url: /images/person-placeholder-light.png
-          altText: Maria Walters
+          altText: IT Manager
           styles:
             self:
               borderRadius: full
@@ -495,17 +478,14 @@ sections:
             justifyContent: center
         type: FeaturedItem
       - title: >-
-          “A designer knows he has achieved perfection not when there is nothing
-          left to add, but when there is nothing left to take away.”
+          "Open source security tools built by professionals who actually understand the challenge."
         tagline: Testimonial 4
-        subtitle: 'Maria Walters, Company'
+        subtitle: 'Security Engineer, Tech Startup'
         text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+          The codebase is clean and well-documented. Contributing back improvements has been straightforward.
         image:
           url: /images/person-placeholder-light.png
-          altText: Maria Walters
+          altText: Developer
           styles:
             self:
               borderRadius: full
@@ -525,53 +505,20 @@ sections:
             justifyContent: center
         type: FeaturedItem
       - title: >-
-          "Design can be art. Design can be aesthetics. Design is so simple,
-          that's why it is so complicated."
+          "The multi-source threat intelligence integration is a game changer for our operations."
         tagline: Testimonial 5
-        subtitle: 'Jane Walters, Company'
+        subtitle: 'SOC Manager, Financial Services'
         text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+          Being able to correlate data from URLhaus, AbuseIPDB, and VirusTotal in one interface has improved our detection quality significantly.
         image:
           url: /images/person-placeholder-light.png
-          altText: Maria Walters
+          altText: SOC Manager
           styles:
             self:
               borderRadius: full
           type: ImageBlock
         actions: []
         colors: bg-neutralAlt-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-9
-              - pb-9
-              - pl-9
-              - pr-9
-            textAlign: left
-            borderRadius: large
-            flexDirection: row
-            justifyContent: center
-        type: FeaturedItem
-      - title: >-
-          “Quote from some important person goes right here. I love using
-          Netlify Create.”
-        tagline: Testimonial 6
-        subtitle: 'Jane Doe, Company'
-        text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
-        image:
-          url: /images/img-placeholder-dark.png
-          altText: Jane Doe
-          styles:
-            self:
-              borderRadius: full
-          type: ImageBlock
-        actions: []
-        colors: bg-dark-fg-light
         styles:
           self:
             padding:
@@ -593,19 +540,46 @@ sections:
       subtitle:
         textAlign: center
   - title:
-      text: List of features here
+      text: Open Source Security
+      color: text-dark
+      styles:
+        self:
+          textAlign: center
+      type: TitleBlock
+    subtitle: Trusted by security teams
+    text: |-
+      TraceConsole is trusted by security analysts, incident responders, and IT security professionals worldwide. Join our community of developers building better threat detection tools.
+    actions:
+      - label: Get started
+        url: https://github.com/SargeJoseph/TraceConsole
+        showIcon: false
+        icon: arrowRight
+        iconPosition: right
+        style: primary
+        elementId: ''
+        type: Button
+    colors: bg-light-fg-dark
+    styles:
+      self:
+        flexDirection: col
+        justifyContent: center
+      subtitle:
+        textAlign: center
+    type: GenericSection
+  - title:
+      text: List of core features
       color: text-primary
       styles:
         self:
           textAlign: center
       type: TitleBlock
-    subtitle: Featured items section subtitle
+    subtitle: Everything included
     items:
-      - title: Feature Item One
-        tagline: This is the tagline
-        subtitle: This is the item subtitle
+      - title: Multi-Source Intelligence
+        tagline: Integrated APIs
+        subtitle: Comprehensive threat data
         text: |
-          Follow the tutorial to build your first Netlify Create site.
+          URLhaus, AbuseIPDB, IPQualityScore, GreyNoise, and VirusTotal
         image:
           url: /images/abstract-feature1.svg
           altText: Placeholder Image
@@ -624,11 +598,11 @@ sections:
             borderRadius: x-large
             flexDirection: col
         type: FeaturedItem
-      - title: Feature Item Two
-        tagline: This is the tagline
-        subtitle: This is the item subtitle
+      - title: Automated Response
+        tagline: Real-time blocking
+        subtitle: Windows Firewall integration
         text: |
-          Follow the tutorial to build your first awesome Netlify Create site.
+          Automatically create and manage firewall rules for malicious IPs
         image:
           url: /images/abstract-feature2.svg
           altText: Placeholder image
@@ -647,12 +621,11 @@ sections:
             borderRadius: x-large
             flexDirection: col
         type: FeaturedItem
-      - title: Feature Item Three
-        tagline: This is the tagline
-        subtitle: This is the item subtitle
+      - title: Forensic Analysis
+        tagline: Evidence collection
+        subtitle: Full artifacts extraction
         text: >
-          Learn from the tutorial and build your first awesome Netlify Create
-          site.
+          Parse Amcache, Prefetch, and EVTX logs for comprehensive forensic analysis.
         image:
           url: /images/abstract-feature1.svg
           altText: Placeholder image

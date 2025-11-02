@@ -4,7 +4,7 @@
         "altText": "Logo light",
         "type": "ImageBlock"
     },
-    "text": "A description of your brand",
+    "text": "Advanced Windows security forensics and automated threat response solutions",
     "primaryLinks": {
         "title": "Product",
         "links": [
@@ -66,24 +66,7 @@
             "icon": "github",
             "type": "Social"
         },
-        {
-            "altText": "Twitter link",
-            "url": "https://twitter.com/netlify",
-            "icon": "twitter",
-            "type": "Social"
-        },
-        {
-            "altText": "LinkedIn link",
-            "url": "https://www.linkedin.com/company/netlify",
-            "icon": "linkedin",
-            "type": "Social"
-        },
-        {
-            "altText": "Email link",
-            "url": "/",
-            "icon": "mail",
-            "type": "Social"
-        }
+
     ],
     "legalLinks": [
         {
@@ -103,7 +86,7 @@
             "type": "Link"
         }
     ],
-    "copyrightText": "Powered by [Netlify](https://www.netlify.com/)\n",
+    "copyrightText": "© 2025 Toilemaitre | Sarge Joseph\n",
     "colors": "bg-dark-fg-light",
     "type": "Footer"
 }
