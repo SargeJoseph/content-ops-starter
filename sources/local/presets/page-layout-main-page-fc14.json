@@ -49,7 +49,7 @@
                             "$$type": "ImageBlock"
                         },
                         "badge": {
-                            "label": "This is a badge",
+                            "label": "Trace Console",
                             "color": "text-primary",
                             "styles": null,
                             "$$type": "Badge"
@@ -174,7 +174,7 @@
                             }
                         ],
                         "badge": {
-                            "label": "This is a badge",
+                            "label": "Trace Console",
                             "color": "text-primary",
                             "styles": {
                                 "self": {
@@ -461,7 +461,7 @@
                             "$$type": "ImageBlock"
                         },
                         "badge": {
-                            "label": "This is a badge",
+                            "label": "Trace Console",
                             "color": "text-primary",
                             "styles": null,
                             "$$type": "Badge"
@@ -517,7 +517,7 @@
                             "$$type": "ImageBlock"
                         },
                         "badge": {
-                            "label": "This is a badge",
+                            "label": "Trace Console",
                             "color": "text-primary",
                             "styles": null,
                             "$$type": "Badge"

@@ -35,7 +35,7 @@ sections:
       elementId: ''
       type: ImageBlock
     badge:
-      label: This is a badge
+      label: Trace Console
       color: text-primary
       type: Badge
     elementId: ''
@@ -141,7 +141,7 @@ sections:
         elementId: ''
         type: Button
     badge:
-      label: This is a badge
+      label: TraceConsole
       color: text-primary
       styles:
         self:
@@ -337,7 +337,7 @@ sections:
       altText: Fun feature preview
       type: ImageBlock
     badge:
-      label: This is a badge
+      label: Trace Console
       color: text-primary
       type: Badge
     colors: bg-light-fg-dark
@@ -372,7 +372,7 @@ sections:
       altText: Dope design preview
       type: ImageBlock
     badge:
-      label: This is a badge
+      label: Trace Console
       color: text-primary
       type: Badge
     colors: bg-light-fg-dark

@@ -45,7 +45,7 @@
                     "$$type": "ImageBlock"
                 },
                 "badge": {
-                    "label": "This is a badge",
+                    "label": "Trace Console",
                     "color": "text-primary",
                     "styles": null,
                     "$$type": "Badge"
