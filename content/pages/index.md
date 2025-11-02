@@ -276,12 +276,11 @@ sections:
         self:
           textAlign: left
       type: TitleBlock
-    subtitle: Section with a video subtitle
+    subtitle: Automated threat response at scale
     text: |-
-      Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.
-      Aenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet
-      erat molestie, hendrerit malesuada justo ultrices. Nunc volutpat at erat
-      vitae interdum. Ut nec massa eget lorem blandit condimentum et at risus.
+      Reduce manual triage by 80% through intelligent IP reputation analysis and threat intelligence correlation.
+      Make faster blocking decisions with data from URLhaus, AbuseIPDB, IPQualityScore, GreyNoise, and VirusTotal.
+      Automate Windows Firewall rule creation and track all changes through comprehensive audit logs.
     actions: []
     media:
       title: Title of the video
@@ -661,12 +660,11 @@ sections:
       text: Generic Section With A Form
       color: text-dark
       type: TitleBlock
-    subtitle: Section with a form subtitle
+    subtitle: Ready to transform your incident response?
     text: |-
-      Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.
-      Aenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet
-      erat molestie, hendrerit malesuada justo ultrices. Nunc volutpat at erat
-      vitae interdum. Ut nec massa eget lorem blandit condimentum et at risus.
+      Contact our security team to discuss your threat detection challenges, API integration requirements,
+      or custom analytics needs. Whether you're managing a SOC or protecting a single endpoint,
+      we have solutions that fit your scale and budget.
     media:
       fields:
         - name: name

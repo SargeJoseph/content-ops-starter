@@ -16,7 +16,7 @@
                     "$$type": "TitleBlock"
                 },
                 "subtitle": "Section with a video subtitle",
-                "text": "Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.\nAenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet\nerat molestie, hendrerit malesuada justo ultrices. Nunc volutpat at erat\nvitae interdum. Ut nec massa eget lorem blandit condimentum et at risus.",
+                "text": "Watch how TraceConsole detects and responds to network threats. See the complete workflow from Windows event collection through threat intelligence correlation to automated firewall rule deployment. This demo covers a typical security incident investigation.",
                 "actions": [],
                 "media": {
                     "title": "Title of the video",

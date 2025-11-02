@@ -324,8 +324,8 @@
                             },
                             "$$type": "TitleBlock"
                         },
-                        "subtitle": "This is a subtitle",
-                        "text": "Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.\nAenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet\nerat molestie, hendrerit malesuada justo ultrices. Nunc volutpat at erat\nvitae interdum. Ut nec massa eget lorem blandit condimentum et at risus.",
+                        "subtitle": "Watch the demo",
+                        "text": "Watch how TraceConsole detects and responds to network threats in real-time. See the complete workflow from Windows event collection through threat intelligence correlation to automated firewall rule deployment. This demo covers a typical security incident investigation with forensic artifact collection and vendor analysis.",
                         "actions": [],
                         "media": {
                             "title": "Title of the video",
@@ -383,7 +383,7 @@
                             "$$type": "TitleBlock"
                         },
                         "subtitle": "Section with a video subtitle",
-                        "text": "Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.\nAenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet\nerat molestie, hendrerit malesuada justo ultrices. Nunc volutpat at erat\nvitae interdum. Ut nec massa eget lorem blandit condimentum et at risus.",
+                        "text": "Automated threat response empowers your security team. Reduce manual triage by 80% through intelligent IP reputation analysis. Make faster blocking decisions with correlated threat data from six leading intelligence sources. Integrate seamlessly with your existing Windows security infrastructure.",
                         "actions": [],
                         "media": {
                             "title": "Title of the video",
@@ -741,13 +741,13 @@
                     },
                     {
                         "title": {
-                            "text": "Generic Section With A Form",
+                            "text": "Get in Touch",
                             "color": "text-dark",
                             "styles": null,
                             "$$type": "TitleBlock"
                         },
-                        "subtitle": "Section with a form subtitle",
-                        "text": "Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.\nAenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet\nerat molestie, hendrerit malesuada justo ultrices. Nunc volutpat at erat\nvitae interdum. Ut nec massa eget lorem blandit condimentum et at risus.",
+                        "subtitle": "Have questions about threat detection?",
+                        "text": "Contact our security team to discuss your incident response workflows, API integration needs, or custom threat intelligence requirements. We're here to help you build a more effective security posture.",
                         "actions": [],
                         "media": {
                             "fields": [

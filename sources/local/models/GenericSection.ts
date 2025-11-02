@@ -30,7 +30,7 @@ export const GenericSection: Model = {
             label: 'Text',
             required: false,
             default:
-                'Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.\nAenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet\nerat molestie, hendrerit malesuada justo ultrices. Nunc volutpat at erat\nvitae interdum. Ut nec massa eget lorem blandit condimentum et at risus.',
+                'Analyze Windows event logs in real-time. Correlate network activity with threat intelligence from URLhaus, AbuseIPDB, and VirusTotal. Automatically block malicious IPs through Windows Firewall rules. Extract forensic artifacts from Amcache and Prefetch logs for incident investigation.'
             hidden: false,
             localized: false
         },

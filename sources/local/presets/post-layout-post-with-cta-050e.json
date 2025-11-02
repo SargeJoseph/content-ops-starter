@@ -45,7 +45,7 @@
                             "$$type": "TitleBlock"
                         },
                         "subtitle": "Section with a form subtitle",
-                        "text": "Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.\nAenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet\nerat molestie, hendrerit malesuada justo ultrices. Nunc volutpat at erat\nvitae interdum. Ut nec massa eget lorem blandit condimentum et at risus.",
+                        "text": "Our security team wants to hear about your experience. Share how you're using threat intelligence in your environment, what challenges you face during incident response, and how automation has improved your security posture.",
                         "actions": [],
                         "media": {
                             "fields": [
