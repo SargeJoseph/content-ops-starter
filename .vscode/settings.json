@@ -11,6 +11,11 @@
     "[yaml]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode",
         "editor.tabSize": 2
+		"frontMatter.content.autoUpdate.date": true,
+		"frontMatter.framework.id": "nextjs",
+		"yaml.validate": true,
+		"editor.quickSuggestions": {
+		  "strings": true
     },
     "[toml]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -19,5 +24,18 @@
     "[markdown]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode",
         "editor.tabSize": 2
-    }
+		  "files.associations": {
+			"*.mdx": "mdx"
+      }
+	  
+  "yaml.validate": true,
+  "yaml.format.enable": true,
+  "yaml.editor.completion": true,
+  "frontMatter.framework.id": "nextjs",
+  "errorLens.enabled": true
+	  
+	  
 }
+
+
+
